@@ -70,7 +70,7 @@ export default function App() {
   autoplay={hasInteracted ? true : undefined}
   shadow-intensity="1"
   ar-placement="floor"
-  style={{ width: '100%', height: '100%', display: hasInteracted ? 'block' : 'none' }}
+  style={{ width: '100%', height: '100%', display: 'block' }}
 >
         <button
           slot="ar-button"
